@@ -1,0 +1,48 @@
+.Parent{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  height: 650px;
+  width: 450px;
+  background-color: #CBDCEB;
+  color:brown;
+  border-radius: 10px;
+  box-shadow: 0 0 7px black;
+}
+.heading{
+    font-size:20px;
+    font-weight: bold;
+    color:#133E87;
+    box-shadow: 0 0 10px #608BC1;
+    border-radius:5px ;
+   
+    height: 30px;
+    width:300px;
+    text-align: justify ;
+}
+body{
+    background-color:#F3F3E0;
+    
+}
+.content{
+    text-align: justify;
+}
+.button{
+    color:#F3F3E0;
+    background-color: #608BC1;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+    font-size: 17px;
+justify-content: justify;
+}
+.button:hover{
+    color:brown;
+    background-color:#F3F3E0 ;
+    box-shadow:0 0 10px #608BC1 ;
+}
+.heading1{
+    color:#133E87;
+    font-weight: bold;
+    font-size: 30px;
+}
