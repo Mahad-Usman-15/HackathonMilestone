@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+
+        <h1 class="heading1">Editable Resume Builder</h1>
+        <div class="Parent">
+            <form id="resume" class="form">
+                <fieldset>
+                    <legend class="Heading">Personal Information</legend>
+                    <div class="div">
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="Enter your name" id="name" required>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" placeholder="Phonenumber" id="Phone" required>
+                        <label for="Email">Email:</label>
+                        <input type="email" placeholder="xyz@gmail.com" id="Email" required>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend class="Heading">Education</legend>
+                    <div class="div">
+                        <label for="education">Education:</label>
+                        <textarea class="textarea" placeholder="Enter your education " id="education" rows="3"
+                            required></textarea>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend class="Heading">Experience</legend>
+                    <div class="div"> <label for="experience">Experience:</label>
+                        <textarea class="textarea" placeholder="Enter your work experience " id="experience" rows="3"
+                            required></textarea>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend class="Heading">Skills</legend>
+                    <div class="div"><label for="skills">Skills:</label>
+                        <textarea class="textarea" placeholder="Enter your Skills " id="Skills" rows="3"
+                            required></textarea>
+                    </div>
+
+                </fieldset>
+                <center><button class="button" type="button" onclick="resumebuilder(event)"><b>Generate Resume</b></button></center>
+            </form>
+        </div>
+        <div id="res">
+            
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
